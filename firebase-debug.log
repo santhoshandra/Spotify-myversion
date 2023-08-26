@@ -1,0 +1,79 @@
+[debug] [2023-08-26T15:58:50.118Z] ----------------------------------------------------------------------
+[debug] [2023-08-26T15:58:50.120Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\LENOVO\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js logout
+[debug] [2023-08-26T15:58:50.120Z] CLI Version:   12.4.6
+[debug] [2023-08-26T15:58:50.121Z] Platform:      win32
+[debug] [2023-08-26T15:58:50.121Z] Node Version:  v18.16.1
+[debug] [2023-08-26T15:58:50.121Z] Time:          Sat Aug 26 2023 21:28:50 GMT+0530 (India Standard Time)
+[debug] [2023-08-26T15:58:50.121Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-26T15:58:50.125Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-08-26T15:58:50.200Z] >>> [apiv2][query] GET https://accounts.google.com/o/oauth2/revoke token=1%2F%2F0gC2O3PSjizMWCgYIARAAGBASNwF-L9IrdzEqtdGb1SzVJOR9KLMOTJtKXl7UbaK_6Ru8veTj8JvWUPgWNtLZo82sowrhwe-L0ns
+[debug] [2023-08-26T15:59:13.061Z] ----------------------------------------------------------------------
+[debug] [2023-08-26T15:59:13.064Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\LENOVO\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2023-08-26T15:59:13.064Z] CLI Version:   12.4.6
+[debug] [2023-08-26T15:59:13.065Z] Platform:      win32
+[debug] [2023-08-26T15:59:13.065Z] Node Version:  v18.16.1
+[debug] [2023-08-26T15:59:13.066Z] Time:          Sat Aug 26 2023 21:29:13 GMT+0530 (India Standard Time)
+[debug] [2023-08-26T15:59:13.066Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-26T15:59:13.069Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[debug] [2023-08-26T15:59:34.189Z] *** [apiv2] error from fetch(https://firebase-public.firebaseio.com/cli.json, {"headers":{},"method":"GET"}): FetchError: request to https://firebase-public.firebaseio.com/cli.json failed, reason: connect ETIMEDOUT 192.0.2.1:443
+[warn] !  Unable to fetch the CLI MOTD and remote config. 
+[debug] [2023-08-26T15:59:34.194Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[debug] [2023-08-26T16:00:02.776Z] ----------------------------------------------------------------------
+[debug] [2023-08-26T16:00:02.779Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\LENOVO\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2023-08-26T16:00:02.780Z] CLI Version:   12.4.6
+[debug] [2023-08-26T16:00:02.780Z] Platform:      win32
+[debug] [2023-08-26T16:00:02.780Z] Node Version:  v18.16.1
+[debug] [2023-08-26T16:00:02.781Z] Time:          Sat Aug 26 2023 21:30:02 GMT+0530 (India Standard Time)
+[debug] [2023-08-26T16:00:02.781Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-26T16:00:02.786Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=490383009&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-08-26T16:00:22.245Z] >>> [apiv2][query] POST https://accounts.google.com/o/oauth2/token [none]
+[debug] [2023-08-26T16:00:22.246Z] >>> [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[debug] [2023-08-26T16:00:23.880Z] *** [apiv2] error from fetch(https://firebase-public.firebaseio.com/cli.json, {"headers":{},"method":"GET"}): FetchError: request to https://firebase-public.firebaseio.com/cli.json failed, reason: connect ETIMEDOUT 192.0.2.1:443
+[warn] !  Unable to fetch the CLI MOTD and remote config. 
+[debug] [2023-08-26T16:00:23.902Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[debug] [2023-08-26T16:00:43.302Z] *** [apiv2] error from fetch(https://accounts.google.com/o/oauth2/token, {"headers":{},"method":"POST","body":{"_overheadLength":543,"_valueLength":208,"_valuesToMeasure":[],"writable":false,"readable":true,"dataSize":0,"maxDataSize":2097152,"pauseStreams":true,"_released":true,"_streams":[],"_currentStream":null,"_insideLoop":false,"_pendingNext":false,"_boundary":"--------------------------737272544525086667791132","_events":{},"_eventsCount":1}}): FetchError: request to https://accounts.google.com/o/oauth2/token failed, reason: connect ETIMEDOUT 192.0.2.1:443
+[debug] [2023-08-26T16:00:43.304Z] Token Fetch Error: FirebaseError: Failed to make request to https://accounts.google.com/o/oauth2/token
+    at RetryOperation._fn (C:\Users\LENOVO\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:239:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [2023-08-26T16:00:43.320Z] >>> [apiv2][query] POST https://auth.firebase.tools/attest [none]
+[debug] [2023-08-26T16:00:43.321Z] >>> [apiv2][body] POST https://auth.firebase.tools/attest {"session_id":"6d75329d-83e9-4289-a22c-4ed0af3b909c"}
+[debug] [2023-08-26T16:01:04.372Z] *** [apiv2] error from fetch(https://auth.firebase.tools/attest, {"headers":{},"method":"POST","body":"{\"session_id\":\"6d75329d-83e9-4289-a22c-4ed0af3b909c\"}"}): FetchError: request to https://auth.firebase.tools/attest failed, reason: connect ETIMEDOUT 192.0.2.1:443
+[debug] [2023-08-26T16:01:09.397Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\LENOVO\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:254:49)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-08-26T16:02:20.225Z] ----------------------------------------------------------------------
+[debug] [2023-08-26T16:02:20.237Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\LENOVO\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2023-08-26T16:02:20.240Z] CLI Version:   12.4.6
+[debug] [2023-08-26T16:02:20.241Z] Platform:      win32
+[debug] [2023-08-26T16:02:20.242Z] Node Version:  v18.16.1
+[debug] [2023-08-26T16:02:20.243Z] Time:          Sat Aug 26 2023 21:32:20 GMT+0530 (India Standard Time)
+[debug] [2023-08-26T16:02:20.243Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-26T16:02:20.251Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=705150178&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-08-26T16:02:32.346Z] *** [apiv2] error from fetch(https://firebase-public.firebaseio.com/cli.json, {"headers":{},"method":"GET"}): FetchError: request to https://firebase-public.firebaseio.com/cli.json failed, reason: getaddrinfo ENOTFOUND firebase-public.firebaseio.com
+[warn] !  Unable to fetch the CLI MOTD and remote config. 
+[debug] [2023-08-26T16:02:32.350Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
